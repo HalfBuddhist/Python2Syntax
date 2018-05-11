@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<title>孕橙助孕计</title>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="stylesheet" href="css/product/product.css">
+<script type="text/javascript" language="javascript" src="css/product/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="css/product/jquery.imagezoom.min.js"></script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="javascript/login.js"></script>
+
+<script>
+
+$(function(){
+var ikt = getCookie("ikt_username");
+	if(ikt != null && ikt != ""){
+	$("#nicheng").text(ikt);
+	$("#login").hide();
+	$("#user-menu").show();
+	}
+var cookie = getCookie("ikt_name");
+		logincookie(cookie);
+		var winWidth,winHeight;
+		Resize = function(){
+			/*获得屏幕大小*/
+			winWidth = $(window).width(),
+			winHeight= $(window).height();
+			/*设置主体显示div高度*/
+			document.getElementById("main-show1").style.height = winHeight-136 + 'px';
+			document.getElementById("main-show2").style.height = winHeight-136 + 'px';
+			document.getElementById("main-show3").style.height = winHeight-136 + 'px';
+		};
+		
+	});
+	
+	function setTab(name,cursel,n){ 
+		for(i=1;i<=n;i++){ 
+			var menu=document.getElementById(name+i); 
+			var con=document.getElementById("con_"+name+"_"+i); 
+			menu.className=i==cursel?"hover":""; 
+			con.style.display=i==cursel?"block":"none"; 
+		} 
+	} 
+	
+	$(document).ready(function(){
+
+		$(".jqzoom").imagezoom();
+		
+		$("#thumblist li a").click(function(){
+			$(this).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
+			$(".jqzoom").attr('src',$(this).find("img").attr("mid"));
+			$(".jqzoom").attr('rel',$(this).find("img").attr("big"));
+		});
+	
+	}); 
+function getCookie(objName){//获取指定名称的cookie的值
+	 
+    var arrStr = document.cookie.split("; ");
+ 
+    for(var i = 0;i < arrStr.length;i ++){
+ 
+        var temp = arrStr[i].split("=");
+ 
+        if(temp[0] == objName) 
+       	return unescape(temp[1]);
+      
+   } 
+	}
+	
+	function reduction(){
+	
+	var buy_number = $("#buy_number").html();
+	if(buy_number > 1){
+	buy_number = parseInt(buy_number)-parseInt(1);
+	$("#buy_number").html(buy_number);
+	}else{
+	$("#buy_number").html(1);
+	}
+	}
+	function plus(){
+	
+	var buy_number = $("#buy_number").html();
+		buy_number = parseInt(buy_number)+parseInt(1);
+	$("#buy_number").html(buy_number);
+	
+	}
+	function car(number){
+	window.location.href = "IKT_car.html?number="+number;
+	
+	
+	}
+		
+	function delCookie(name) 
+{ 
+    var exp = new Date(); 
+    exp.setTime(exp.getTime() - 1); 
+    var cval=getCookie(name); 
+    if(cval!=null) 
+        document.cookie= name + "="+cval+";expires="+exp.toGMTString(); 
+} 
+function logout(){
+delCookie("ikt_name");
+delCookie("ikt_username");
+history.go(0);
+
+}
+/*
+	
+	function xinlang(){
+	var _t = "aaaaa";
+ 
+	var _url = "http://test.ikangtai.com/shecare/IKT_product.html";
+ 
+	var _appkey = "孕橙";//你从腾讯获得的appkey
+ 
+//	var _pic = encodeURI('');//（列如：var _pic='图片url1|图片url2|图片url3....）
+ 
+	var _site = "http://test.ikangtai.com/shecare/IKT_product.html";//你的网站地址
+ 
+	var _u = 'http://service.weibo.com/share/share.php?title='+_t+'&url='+_url+'&appkey='+_appkey+'&site='+_site;
+ 
+	window.open( _u,'转播到腾讯微博', 'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no' );
+	
+//	window.showModelessDialog("http://service.weibo.com/share/share.php?url=http://www.ikangtai.com/shecare/IKT_product.html&appkey="+"孕橙"+"&title="+"ssssss"+"&language="+"zh_cn","","dialogWidth=700px;dialogHeight=900px");
+	
+	}
+	*/
+	
+</script>
+
+</head>
+
+<body onResize="Resize()" onLoad="Resize()">
+	
+    <div class="main-show" id="md">
+    	<div class="main-show-buy">
+        	<div style="width:500px; height:600px; margin-top:50px; float:left; margin-left:20%">
+            	<div class="box">
+
+                    <div class="tb-booth tb-pic tb-s310">
+                        <a href="images/01.jpg"><img src="images/01_mid.jpg" alt="" width="568" height="709" class="jqzoom" rel="images/01.jpg" /></a>
+					</div>
+                
+                    <ul class="tb-thumb" id="thumblist">
+                        <li class="tb-selected"><div class="tb-pic tb-s40"><a href="#"><img src="images/01_small.jpg" mid="images/01_mid.jpg" big="images/01.jpg"></a></div></li>
+                        <li><div class="tb-pic tb-s40"><a href="#"><img  src="images/02_small.jpg" mid="images/02_mid.jpg" big="images/02.jpg"></a></div></li>
+                        <li><div class="tb-pic tb-s40"><a href="#"><img src="images/03_small.jpg" mid="images/03_mid.jpg" big="images/03.jpg"></a></div></li>
+                        <li><div class="tb-pic tb-s40"><a href="#"><img src="images/04_small.jpg" mid="images/04_mid.jpg" big="images/04.jpg"></a></div></li>
+                        <li><div class="tb-pic tb-s40"><a href="#"><img src="images/05_small.jpg" mid="images/05_mid.jpg" big="images/05.jpg"></a></div></li>
+                        <li><div class="tb-pic tb-s40"><a href="#"><img src="images/06_small.jpg" mid="images/06_mid.jpg" big="images/06.jpg"></a></div></li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div style=" text-align:left; height:500px; margin-top:100px; float:left; font-family:'微软雅黑'; color:#999">
+            	<div style="font-size:20px; color:#666">孕橙助孕计</div><p>
+                <div style="font-size:20px; color:#f26424; display:inline">市场价：298元</div><p>
+                <hr style="width:150%"/><p>
+                <table>
+                	<tr>
+                    	<td><div style="font-size:20px;">款式：</div>&nbsp;&nbsp;</td>
+                        <td><div style="font-size:15px; padding:10px 20px 10px 20px; border:1px solid #999">孕橙助孕计+便携盒</div><p></td>
+                    </tr>
+                    
+                    
+                    
+                     <!-- <td><input style="background-color:#FFF;border: 1px solid #E0E4E9;" type="button" value="-" onclick="reduction()"/><div style="font-size:20px;" id="buy_number">1</div><input type="button" value="+" onclick="plus()"/><p></td>
+                    </tr> -->
+                    
+                    
+                    
+                    <tr>
+                    	<td><div style="font-size:20px;margin-top:20px">数量：</div>&nbsp;&nbsp;</td>
+                        <td>
+                        	<table>
+                        		<tr style="font-size:20px;margin-top:-20px">
+                        			<td><img style="width:50%;cursor:pointer" src="images/down.jpg" onclick="reduction()"/></td>
+                        			<td><div style="font-size:20px;margin-right:20px" id="buy_number">1</div></td>
+                        			<td><img style="width:50%;cursor:pointer" src="images/up.jpg" onclick="plus()"/></td>
+                        		</tr>
+                        	</table>
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td></td>
+                        <td><input type="button" value="加入购物车" onclick="car($('#buy_number').html())" style="cursor:pointer;color: #ffffff;border: solid 1px #f26423;background: #f26423;padding:10px 30px 10px 30px; font-family:'微软雅黑';border-radius: 20px;"/><p></td>
+                    </tr>
+                </table>
+                <hr style="width:150%" /><p>
+                <!-- 
+                <div style="display:inline;cursor:pointer">
+              
+                	/*<wb:share-button appkey="孕橙" type="icon" count="n" title="ssssss" size="big"></wb:share-button>*/
+              
+                 <img src="images/xinlang.png" onclick="xinlang()"/>
+                </div>
+                <div style="display:inline;cursor:pointer">
+                	<img src="images/qqweibo.png" />
+                </div>
+                <div style="display:inline;cursor:pointer">
+                	<img src="images/weixin.png" />
+                </div>
+                <div style="display:inline;cursor:pointer">
+                	<img src="images/qqkongjian.png" />
+                </div>
+                 -->
+            </div>
+        </div>
+        <div class="main-show-introduce">
+        	<img src="images/introduce/introduce_02.jpg"/>
+            <img src="images/introduce/introduce_03.jpg"/>
+            <img src="images/introduce/introduce_04.jpg"/>
+            <img src="images/introduce/introduce_05.jpg"/>
+            <img src="images/introduce/introduce_06.jpg"/>
+            <img src="images/introduce/introduce_07.jpg"/>
+            <img src="images/introduce/introduce_08.jpg"/>
+            <img src="images/introduce/introduce_09.jpg"/>
+            <img src="images/introduce/introduce_10.jpg"/>
+            <img src="images/introduce/introduce_11.jpg"/>
+            <img src="images/introduce/introduce_12.jpg"/>
+            <img src="images/introduce/introduce_13.jpg"/>
+            <img src="images/introduce/introduce_14.jpg"/>
+            <img src="images/introduce/introduce_15.jpg"/>
+            <img src="images/introduce/introduce_16.jpg"/>
+            <img src="images/introduce/introduce_17.jpg"/>
+            <img src="images/introduce/introduce_18.jpg"/>
+            <img src="images/introduce/introduce_19.jpg"/>
+            <img src="images/introduce/introduce_20.jpg"/>
+            <img src="images/introduce/introduce_21.jpg"/>
+            <img src="images/introduce/introduce_22.jpg"/>
+            <img src="images/introduce/introduce_23.jpg"/>
+            <img src="images/introduce/introduce_24.jpg"/>
+            <img src="images/introduce/introduce_25.jpg"/>
+        </div>
+    </div>
+
+	<!--顶--> 
+  <div class="main-head"> 
+   <header class="header"> 
+    <div class="container"> 
+     <nav class="header-nav clearfix"> 
+      <a href="/" class="header-nav-logo"> <img alt="Logo header" src="images/logo.png" border="0"/> </a>
+      <div class="user-info"> 
+       <a href="IKT_login.html" id="lj"><div id="login">登录/注册</div></a>
+       <ul id="user-menu" style="display: none;"> 
+        <li> <a href="IKT_user.html" id="nicheng"></a> </li>
+        <!--<li><a href="/my_devices">设备管理</a></li>
+                    <li><a href="/orders">订单管理</a></li>
+                    <li><a href="/shipping_infos">收货地址</a></li>--> 
+        <li><a href="" onclick="logout()">退出</a></li> 
+       </ul> 
+      </div> 
+      <ul class="header-nav-bar"> 
+        <li><a href="/">首页</a></li>
+       <li><a href="IKT_product.html">商城</a></li> 
+       <li><a href="IKT_app.html">开发者平台</a></li>
+       <!-- to be implement --> 
+       <!-- <li><a href="/functions">功能攻略</a></li>
+                <li><a href="/laboratory">实验室</a></li> --> 
+      </ul> 
+     </nav> 
+    </div> 
+   </header> 
+  </div> 
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<title>孕橙助孕计</title>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="stylesheet" href="css/fullpage/jquery.fullPage.css">
+<script src="js/fullpage/jquery-1.8.3.min.js"></script>
+<script src="js/fullpage/jquery-ui-1.10.3.min.js"></script>
+<script src="js/fullpage/jquery.fullPage.min.js"></script>
+
+<link rel="stylesheet" href="css/login/login.css">
+
+<script>
+
+$(function(){
+		var winWidth,winHeight;
+		Resize = function(){
+			/*获得屏幕大小*/
+			winWidth = $(window).width(),
+			winHeight= $(window).height();
+			/*设置主体显示div高度*/
+			document.getElementById("main-show").style.height = winHeight + 'px';
+		}
+	});
+
+</script>
+
+</head>
+
+<body onResize="Resize()" onLoad="Resize()">
+	
+    <div class="section">
+    	<div id="main-show" class="main-show">
+        	<div class="main-show-iframe">
+            	<iframe id="login_frame" name="login_frame" height="100%" scrolling="auto" width="100%" frameborder="0" src="IKT_login_part1.html"></iframe>
+            </div>
+        	<img src="images/earth.png" style="width:40%; float:left; margin-top:-40%; margin-left:16%"/>
+        </div>
+        
+    </div>
+	<!--顶--> 
+  <div class="main-head"> 
+   <header class="header"> 
+    <div class="container"> 
+     <nav class="header-nav clearfix"> 
+      <a href="/" class="header-nav-logo"> <img alt="Logo header" src="images/logo.png" border="0"/> </a>
+      <div class="user-info"> 
+       <a href="IKT_login.html" id="lj"><div id="login">登录/注册</div></a>
+       <ul id="user-menu" style="display: none;"> 
+        <li> <a href="IKT_user.html" id="nicheng"></a> </li>
+        <!--<li><a href="/my_devices">设备管理</a></li>
+                    <li><a href="/orders">订单管理</a></li>
+                    <li><a href="/shipping_infos">收货地址</a></li>--> 
+        <li><a href="" onclick="logout()">退出</a></li> 
+       </ul> 
+      </div> 
+      <ul class="header-nav-bar"> 
+       <li><a href="/">首页</a></li>
+       <li><a href="IKT_product.html">商城</a></li> 
+       <li><a href="IKT_app.html">开发者平台</a></li>
+       <!-- to be implement --> 
+       <!-- <li><a href="/functions">功能攻略</a></li>
+                <li><a href="/laboratory">实验室</a></li> --> 
+      </ul> 
+     </nav> 
+    </div> 
+   </header> 
+  </div> 
+  <!--底--> 
+  <div class="main-foot"> 
+   <div class="main-foot-link"> 
+    <footer class="footer"> 
+     <div class="container footer-bg"> 
+      <div class="row footer-panel"> 
+       <div class="col-sm-5"> 
+        <dl class="footer-related-pages clearfix"> 
+         <dd>
+          <a href="IKT_video.html">操作指南</a>
+         </dd> 
+         <dd>
+          <a href="IKT_qa.html">常见问题</a>
+         </dd> 
+         <dd>
+          <a href="IKT_about.html">关于我们</a>
+         </dd> 
+         <dd>
+          <a href="IKT_privacy.html">隐私|使用条款</a>
+         </dd> 
+        </dl> 
+       </div> 
+       <div class="col-sm-7"> 
+        <p class="footer-copyright"> <span> 北京爱康泰科技有限责任公司 &copy; 2013 </span> <span class="footer-filing"> 京ICP备13038235号 | 京公网安备11010802011678号 </span> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+  </div>   
+
+</body>
+</html>

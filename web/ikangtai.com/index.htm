@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<title>孕橙助孕计</title>
+
+	<!-- 
+	<link rel="Bookmark" href="favicon.ico">
+	 -->
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="stylesheet" href="css/fullpage/jquery.fullPage.css">
+<script src="js/fullpage/jquery-1.8.3.min.js"></script>
+<script src="js/fullpage/jquery-ui-1.10.3.min.js"></script>
+<script src="js/fullpage/jquery.fullPage.min.js"></script>
+
+<script src="js/carousel/min/jquery-v1.10.2.min.js" type="text/javascript"></script>
+<script src="js/carousel/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="js/carousel/min/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+<link href="css/carousel/flickerplate.css"  type="text/css" rel="stylesheet">
+<script src="js/carousel/min/flickerplate.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="javascript/login.js"></script>
+
+<script>
+
+
+	$(document).ready(function(){
+		
+		$('.flicker').flicker();
+	});
+	
+	$(function(){
+//		alert("ss");
+	var ikt = getCookie("ikt_username");
+	if(ikt != null && ikt != ""){
+	$("#nicheng").text(ikt);
+	$("#login").hide();
+	$("#user-menu").show();
+	}
+		var cookie = getCookie("ikt_name");
+		logincookie(cookie);
+		var winWidth,winHeight;
+		Resize = function(){
+			/*获得屏幕大小*/
+			winWidth = $(window).width(),
+			winHeight= $(window).height();
+			/*设置主体显示div高度*/
+			document.getElementById("part1").style.height = winHeight-136 + 'px';
+			document.getElementById("part1-table").style.height = winHeight-236 + 'px';
+			document.getElementById("part2-table").style.height = winHeight-236 + 'px';
+			document.getElementById("part2").style.height = winHeight-136 + 'px';
+			document.getElementById("part1-thermometer").style.height = (winHeight-236)*0.75 + 'px';
+			document.getElementById("part1-logo").style.height = (winHeight-236)/5 + 'px';
+			document.getElementById("part1-text").style.height = (winHeight-236)/5 + 'px';
+			document.getElementById("part1-buy").style.height = (winHeight-236)/5 + 'px';
+			document.getElementById("part2-img").style.height = (winHeight-236)*0.6 + 'px';
+			/*document.getElementById("part2-img").style.width = winWidth*0.7 + 'px';*/
+		};
+		
+		$("#part1-text").click(function(){
+			window.location = "IKT_part1.html";
+		});
+		$("#part1-table-show").click(function(){
+			window.location = "IKT_part1.html";
+		});
+		$("#part2-text").click(function(){
+			window.location = "IKT_part2.html";
+		});
+		$("#part2-img").click(function(){
+			window.location = "IKT_part2.html";
+		});
+		
+	});
+	
+	function getCookie(objName){//获取指定名称的cookie的值
+	 
+    var arrStr = document.cookie.split("; ");
+ 
+    for(var i = 0;i < arrStr.length;i ++){
+ 
+        var temp = arrStr[i].split("=");
+ 
+        if(temp[0] == objName) 
+        	return unescape(temp[1]);
+ 
+   } 
+
+ 
+	}
+	
+	function delCookie(name) 
+{ 
+    var exp = new Date(); 
+    exp.setTime(exp.getTime() - 1); 
+    var cval=getCookie(name); 
+    if(cval!=null) 
+        document.cookie= name + "="+cval+";expires="+exp.toGMTString(); 
+} 
+function logout(){
+delCookie("ikt_name");
+delCookie("ikt_username");
+history.go(0);
+
+}
+
+	
+</script>
+
+</head>
+
+<body onResize="Resize()" onLoad="Resize()">
+	
+    <!--中间主体部分-->
+    <div class="section">
+        <div class="flicker" data-block-text="false">
+          <ul>
+            <li>
+            	<div id="part1" class="part1">
+                	<div style="height:100%;">
+                    	<table id="part1-table" class="part1-table">
+                        	<tr style="cursor:pointer;" id="part1-table-show">
+                            	<td>
+                                	<div>
+                                    	<img src="images/shecare.png" id="part1-logo" class="part1-logo"/>
+                                    </div>
+                                    <p>
+                                	<div id="part1-text" class="part1-text" style="cursor:pointer;">
+                                    	Shecare,know yourself better<p>
+                                        孕橙，更懂你自己<p>
+                                        <div id="part1-more" style="cursor:pointer;">了解更多</div>
+                                    </div>
+                                    <p>
+                                    <div  id="part1-buy" class="part1-buy">
+                                    	<a href="IKT_product.html"><img src="images/buy.png" /></a>
+                                    </div>
+                                </td>
+                                <td><img src="images/thermometer.png" id="part1-thermometer" class="part1-thermometer"/></td>
+                            </tr>
+                            <!--<tr>
+                            	<td>
+                                	<div id="part1-text" class="part1-text" style="cursor:pointer;">
+                                    	Shecare,know yourself better<p>
+                                        孕橙，更懂你自己<p>
+                                        <div id="part1-more" style="cursor:pointer;">了解更多</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td>
+                                	<div  id="part1-buy" class="part1-buy">
+                                    	<a href="IKT_product.html"><img src="images/buy.png" /></a>
+                                    </div>
+                                </td>
+                            </tr>-->
+                        </table>
+                    </div>
+                </div>
+            </li>
+            <li>
+              	<div id="part2" class="part2">
+                	<table id="part2-table" class="part2-table">
+                    	<tr>
+                        	<td>
+                                <div> 
+                                    <img src="images/part2-img.png" id="part2-img" class="part2-img" style="cursor:pointer;"/>
+                                </div>
+                            </td>
+                            <td>
+                            	<div class="part2-text" id="part2-text" style="cursor:pointer;">
+                                    Shecare APP,Your doctor in Cloud<p>
+                                    孕橙APP，健康云管理<p>
+                                    <div id="part2-more" style="cursor:pointer;">了解更多</div><p>
+                                    <a href="https://itunes.apple.com/us/app/yi-lin-ti-wen-ji/id718069382?ls=1&mt=8" style="position: relative;z-index: 500;" target="_blank"><img src="images/apple.png" /></a>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="http://www.ikangtai.com/shecare.apk"><img src="images/androidapp.png"/></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+          </ul>
+          <img src="images/tel.png" style="position: absolute;right: 10%; bottom:10%;"/>
+        </div>
+    </div>
+
+	<!--顶--> 
+  <div class="main-head"> 
+   <header class="header"> 
+    <div class="container"> 
+     <nav class="header-nav clearfix"> 
+      <a href="/" class="header-nav-logo"> <img alt="Logo header" src="images/logo.png" border="0"/> </a>
+      <div class="user-info"> 
+       <a href="IKT_login.html" id="lj"><div id="login">登录/注册</div></a>
+       <ul id="user-menu" style="display: none;"> 
+        <li> <a href="IKT_user.html" id="nicheng"></a> </li>
+        <!--<li><a href="/my_devices">设备管理</a></li>
+                    <li><a href="/orders">订单管理</a></li>
+                    <li><a href="/shipping_infos">收货地址</a></li>--> 
+        <li><a href="" onclick="logout()">退出</a></li> 
+       </ul> 
+      </div> 
+      <ul class="header-nav-bar"> 
+       <li><a href="/">首页</a></li>
+       <li><a href="IKT_product.html">商城</a></li> 
+       <li><a href="IKT_app.html">开发者平台</a></li>
+       <!-- to be implement --> 
+       <!-- <li><a href="/functions">功能攻略</a></li>
+                <li><a href="/laboratory">实验室</a></li> --> 
+      </ul> 
+     </nav> 
+    </div> 
+   </header> 
+  </div> 
+  <!--底--> 
+  <div class="main-foot"> 
+   <div class="main-foot-link"> 
+    <footer class="footer"> 
+     <div class="container footer-bg"> 
+      <div class="row footer-panel"> 
+       <div class="col-sm-5"> 
+        <dl class="footer-related-pages clearfix"> 
+         <dd>
+          <a href="IKT_video.html">操作指南</a>
+         </dd> 
+         <dd>
+          <a href="IKT_qa.html">常见问题</a>
+         </dd> 
+         <dd>
+          <a href="IKT_about.html">关于我们</a>
+         </dd> 
+         <dd>
+          <a href="IKT_privacy.html">隐私|使用条款</a>
+         </dd> 
+        </dl> 
+       </div> 
+       <div class="col-sm-7"> 
+        <p class="footer-copyright"> <span> 北京爱康泰科技有限责任公司 &copy; 2013 </span> <span class="footer-filing"> 京ICP备13038235号 | 京公网安备11010802011678号 </span> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+  </div>   
+
+</body>
+</html>
