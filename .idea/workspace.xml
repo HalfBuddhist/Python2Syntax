@@ -1,1113 +1,813 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b49ff4dd-d31a-4734-acbf-e9bddc722201" name="Default" comment="" />
-    <ignored path="PythonLearning.iws" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" id="cdf81c00-afc7-4f86-a244-690b16c94cce" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/unittest_t/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_t/mydict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_t/mydict_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_t/unittest_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python2_soup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python2_soup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy/deep_copy_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/deep_copy_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy/deepcopy.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/deepcopy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy/test_list_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/test_list_copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy/test_remove_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/test_remove_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/TestDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/TestDate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/test_asctime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_asctime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/test_calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_calendar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/test_localtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_localtime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/test_strftime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_strftime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_operation/makeTextFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_operation/makeTextFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/asc2_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_t/asc2_decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/tsJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_t/tsJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/myapp.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/tsLogging2Console.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLogging2Console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/tsLogging2File.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLogging2File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/tsLoggingConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLoggingConfigFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/tsLoggingStreamHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLoggingStreamHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/tst.log" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tst.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/mtfacfib.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtfacfib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/mtfacfib_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtfacfib_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep2.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep3.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep4.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep5.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/myThread.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/myThread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/prodcons.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/prodcons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_threading/test_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/test_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocessing/pipe/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/pipe/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocessing/pipe/ts_pip_consumer_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocessing/pipe/ts_pipe_server_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/os/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/os_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/os/ospathex.py" beforeDir="false" afterPath="$PROJECT_DIR$/os_t/ospathex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re/gendata.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_t/gendata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/test_cookie_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_cookie_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/test_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/test_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request/test_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/ts_sched.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_sched.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/ts_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/ts_timer_cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_timer_cycle.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonLearning$idcheck.coverage" NAME="idcheck Coverage Results" MODIFIED="1416539037973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_property_setter.coverage" NAME="ts_property_setter Coverage Results" MODIFIED="1427978873595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/descriptor" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsTserv.coverage" NAME="tsTserv Coverage Results" MODIFIED="1418789441496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$mtsleep2.coverage" NAME="mtsleep2 Coverage Results" MODIFIED="1418877719503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deleteHan.coverage" NAME="deleteHan Coverage Results" MODIFIED="1490356455337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/tool" />
-    <SUITE FILE_PATH="coverage/PythonLearning$descr.coverage" NAME="descr Coverage Results" MODIFIED="1429845202335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/descriptor" />
-    <SUITE FILE_PATH="coverage/PythonLearning$pfaGUI2.coverage" NAME="pfaGUI2 Coverage Results" MODIFIED="1418909195497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/PFA" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testorm.coverage" NAME="testorm Coverage Results" MODIFIED="1419569007433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/database" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_simpledialog.coverage" NAME="test_simpledialog Coverage Results" MODIFIED="1524565314831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python3/tkinter" />
-    <SUITE FILE_PATH="coverage/PythonLearning$stack.coverage" NAME="stack Coverage Results" MODIFIED="1416821558173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_propery.coverage" NAME="ts_propery Coverage Results" MODIFIED="1427979240847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/descriptor" />
-    <SUITE FILE_PATH="coverage/PythonLearning$prodcons.coverage" NAME="prodcons Coverage Results" MODIFIED="1524304842278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_code_object.coverage" NAME="test_code_object Coverage Results" MODIFIED="1422429093153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/codeObject" />
-    <SUITE FILE_PATH="coverage/PythonLearning$descriptor.coverage" NAME="descriptor Coverage Results" MODIFIED="1427962874260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/descriptor" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_abstrac_class__1_.coverage" NAME="test_abstrac_class (1) Coverage Results" MODIFIED="1465856959670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/class" />
-    <SUITE FILE_PATH="coverage/PythonLearning$crawl.coverage" NAME="crawl Coverage Results" MODIFIED="1419242662055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/web" />
-    <SUITE FILE_PATH="coverage/PythonLearning$TestModule1.coverage" NAME="TestModule1 Coverage Results" MODIFIED="1418420506896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsLogging2Console.coverage" NAME="tsLogging2Console Coverage Results" MODIFIED="1423155978906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/logging" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tkhello2.coverage" NAME="tkhello2 Coverage Results" MODIFIED="1524155097999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsJson.coverage" NAME="tsJson Coverage Results" MODIFIED="1430724317773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/json" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_cookie_get.coverage" NAME="test_cookie_get Coverage Results" MODIFIED="1523943464806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/request" />
-    <SUITE FILE_PATH="coverage/PythonLearning$scope.coverage" NAME="scope Coverage Results" MODIFIED="1418254038538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$simple_crawler.coverage" NAME="simple_crawler Coverage Results" MODIFIED="1416184313784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tkhello1.coverage" NAME="tkhello1 Coverage Results" MODIFIED="1524154803274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1418247372814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$loopmake.coverage" NAME="loopmake Coverage Results" MODIFIED="1418664675481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$TestSubClassVariableBelowLine.coverage" NAME="TestSubClassVariableBelowLine Coverage Results" MODIFIED="1418580314942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsTservSS.coverage" NAME="tsTservSS Coverage Results" MODIFIED="1418818685960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$dmoz_spider__1_.coverage" NAME="dmoz_spider (1) Coverage Results" MODIFIED="1420462217498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/scrapy/tutorial/tutorial/spiders" />
-    <SUITE FILE_PATH="coverage/PythonLearning$grabWeb.coverage" NAME="grabWeb Coverage Results" MODIFIED="1417976822002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsTclnt.coverage" NAME="tsTclnt Coverage Results" MODIFIED="1418788837325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$hotel.coverage" NAME="hotel Coverage Results" MODIFIED="1418421082374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$makeTextFile.coverage" NAME="makeTextFile Coverage Results" MODIFIED="1416457406679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$urlopenAuth.coverage" NAME="urlopenAuth Coverage Results" MODIFIED="1419158301956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/web" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testmysqlconnector.coverage" NAME="testmysqlconnector Coverage Results" MODIFIED="1425678306234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/database" />
-    <SUITE FILE_PATH="coverage/PythonLearning$TestModuleImport.coverage" NAME="TestModuleImport Coverage Results" MODIFIED="1418336623891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_post.coverage" NAME="test_post Coverage Results" MODIFIED="1523941881703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/request" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_sched.coverage" NAME="ts_sched Coverage Results" MODIFIED="1435927256974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/timer" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsLoggingConfigFile.coverage" NAME="tsLoggingConfigFile Coverage Results" MODIFIED="1423158599240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/logging" />
-    <SUITE FILE_PATH="coverage/PythonLearning$t_base64.coverage" NAME="t_base64 Coverage Results" MODIFIED="1523776706546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/encode" />
-    <SUITE FILE_PATH="coverage/PythonLearning$queue.coverage" NAME="queue Coverage Results" MODIFIED="1416822195852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$unicode_example.coverage" NAME="unicode_example Coverage Results" MODIFIED="1416983009086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$meta.coverage" NAME="meta Coverage Results" MODIFIED="1465852517103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/meta" />
-    <SUITE FILE_PATH="coverage/PythonLearning$argv.coverage" NAME="argv Coverage Results" MODIFIED="1424034557162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/argv" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_propery_doc.coverage" NAME="ts_propery_doc Coverage Results" MODIFIED="1427970689954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/descriptor" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deleteArrowSpace.coverage" NAME="deleteArrowSpace Coverage Results" MODIFIED="1419493195427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/tool" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_datetime.coverage" NAME="test_datetime Coverage Results" MODIFIED="1524301327160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/datetime" />
-    <SUITE FILE_PATH="coverage/PythonLearning$animalTix.coverage" NAME="animalTix Coverage Results" MODIFIED="1418938024942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$animalWx_pyw.coverage" NAME="animalWx.pyw Coverage Results" MODIFIED="1524155009398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsTservTW.coverage" NAME="tsTservTW Coverage Results" MODIFIED="1418821266111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_getattr.coverage" NAME="test_getattr Coverage Results" MODIFIED="1427961829304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/wrap" />
-    <SUITE FILE_PATH="coverage/PythonLearning$listdir.coverage" NAME="listdir Coverage Results" MODIFIED="1524155019447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$maxFact.coverage" NAME="maxFact Coverage Results" MODIFIED="1417520467709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$mtsleep4.coverage" NAME="mtsleep4 Coverage Results" MODIFIED="1418885459287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$dmoz_spider.coverage" NAME="dmoz_spider Coverage Results" MODIFIED="1420532867155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/scrapy/tutorial/tutorial/spiders" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tkhello4.coverage" NAME="tkhello4 Coverage Results" MODIFIED="1524155129623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$originalString.coverage" NAME="originalString Coverage Results" MODIFIED="1416552700813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_get.coverage" NAME="test_get Coverage Results" MODIFIED="1523941796017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/request" />
-    <SUITE FILE_PATH="coverage/PythonLearning$Unittests_in_PythonLearning.coverage" NAME="Unittests in PythonLearning Coverage Results" MODIFIED="1418788477303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ppfaGUI.coverage" NAME="ppfaGUI Coverage Results" MODIFIED="1418130145612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_calendar.coverage" NAME="test_calendar Coverage Results" MODIFIED="1524301214746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/datetime" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_timer.coverage" NAME="ts_timer Coverage Results" MODIFIED="1435911766127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/timer" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsUclnt.coverage" NAME="tsUclnt Coverage Results" MODIFIED="1418791099840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$mtsleep5.coverage" NAME="mtsleep5 Coverage Results" MODIFIED="1418886064990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$capopen.coverage" NAME="capopen Coverage Results" MODIFIED="1427959799589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/wrap" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deep_copy_list.coverage" NAME="deep_copy_list Coverage Results" MODIFIED="1501139882279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/copy" />
-    <SUITE FILE_PATH="coverage/PythonLearning$crawler_urllib.coverage" NAME="crawler_urllib Coverage Results" MODIFIED="1420538316792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/crawler" />
-    <SUITE FILE_PATH="coverage/PythonLearning$animalPmw.coverage" NAME="animalPmw Coverage Results" MODIFIED="1418938650826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testmysql.coverage" NAME="testmysql Coverage Results" MODIFIED="1419567833861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/database" />
-    <SUITE FILE_PATH="coverage/PythonLearning$easyMath.coverage" NAME="easyMath Coverage Results" MODIFIED="1417952335025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsTclntSS.coverage" NAME="tsTclntSS Coverage Results" MODIFIED="1418818552144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_remove_list.coverage" NAME="test_remove_list Coverage Results" MODIFIED="1501140169613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/copy" />
-    <SUITE FILE_PATH="coverage/PythonLearning$TestBaseSyntax.coverage" NAME="TestBaseSyntax Coverage Results" MODIFIED="1418594032860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsProxy.coverage" NAME="tsProxy Coverage Results" MODIFIED="1422682764544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$orderofgetattribute.coverage" NAME="orderofgetattribute Coverage Results" MODIFIED="1418629429657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testit.coverage" NAME="testit Coverage Results" MODIFIED="1490416233215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$TestSyntax.coverage" NAME="TestSyntax Coverage Results" MODIFIED="1416465155725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$hello.coverage" NAME="hello Coverage Results" MODIFIED="1416292007555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/51CTO下载-python源文件/源文件/01/1.3" />
-    <SUITE FILE_PATH="coverage/PythonLearning$subclassexample.coverage" NAME="subclassexample Coverage Results" MODIFIED="1418584869963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$PFATest.coverage" NAME="PFATest Coverage Results" MODIFIED="1418118243881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$myhttpd.coverage" NAME="myhttpd Coverage Results" MODIFIED="1419418178966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/web" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_queue.coverage" NAME="test_queue Coverage Results" MODIFIED="1524305013895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ospathex.coverage" NAME="ospathex Coverage Results" MODIFIED="1417597720264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$gendata.coverage" NAME="gendata Coverage Results" MODIFIED="1418779767955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsUserv.coverage" NAME="tsUserv Coverage Results" MODIFIED="1418791096586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$typecheck.coverage" NAME="typecheck Coverage Results" MODIFIED="1416469862190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_localtime.coverage" NAME="test_localtime Coverage Results" MODIFIED="1524300672845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/datetime" />
-    <SUITE FILE_PATH="coverage/PythonLearning$funcAttrs.coverage" NAME="funcAttrs Coverage Results" MODIFIED="1418665554895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deco.coverage" NAME="deco Coverage Results" MODIFIED="1427975074668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/decorator" />
-    <SUITE FILE_PATH="coverage/PythonLearning$animalTix_pyw.coverage" NAME="animalTix.pyw Coverage Results" MODIFIED="1524155003809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deleteNumComma.coverage" NAME="deleteNumComma Coverage Results" MODIFIED="1416984054418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsLoggingStreamHandler.coverage" NAME="tsLoggingStreamHandler Coverage Results" MODIFIED="1423156788360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/logging" />
-    <SUITE FILE_PATH="coverage/PythonLearning$abc.coverage" NAME="abc Coverage Results" MODIFIED="1465853404473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
-    <SUITE FILE_PATH="coverage/PythonLearning$myexc.coverage" NAME="myexc Coverage Results" MODIFIED="1417893911812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$numconv.coverage" NAME="numconv Coverage Results" MODIFIED="1417973493178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tkhello3.coverage" NAME="tkhello3 Coverage Results" MODIFIED="1524155115535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_coulddelete.coverage" NAME="test_coulddelete Coverage Results" MODIFIED="1489395379147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$HanZi.coverage" NAME="HanZi Coverage Results" MODIFIED="1489395984736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/tool" />
-    <SUITE FILE_PATH="coverage/PythonLearning$animalPmw_pyw.coverage" NAME="animalPmw.pyw Coverage Results" MODIFIED="1524154999493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsLogging.coverage" NAME="tsLogging Coverage Results" MODIFIED="1423156786102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/logging" />
-    <SUITE FILE_PATH="coverage/PythonLearning$mtsleep3.coverage" NAME="mtsleep3 Coverage Results" MODIFIED="1418883599267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testsqlobject.coverage" NAME="testsqlobject Coverage Results" MODIFIED="1419575058514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/database" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_strftime.coverage" NAME="test_strftime Coverage Results" MODIFIED="1524300819596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/datetime" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_abstrac_class.coverage" NAME="test_abstrac_class Coverage Results" MODIFIED="1465847264135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/abstract_class" />
-    <SUITE FILE_PATH="coverage/PythonLearning$video_download.coverage" NAME="video_download Coverage Results" MODIFIED="1523777848433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/download" />
-    <SUITE FILE_PATH="coverage/PythonLearning$animalGtk_pyw.coverage" NAME="animalGtk.pyw Coverage Results" MODIFIED="1524154994528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/GUI" />
-    <SUITE FILE_PATH="coverage/PythonLearning$readTextFile.coverage" NAME="readTextFile Coverage Results" MODIFIED="1416464668627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$TestDate.coverage" NAME="TestDate Coverage Results" MODIFIED="1419597863322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/datetime" />
-    <SUITE FILE_PATH="coverage/PythonLearning$closureVars.coverage" NAME="closureVars Coverage Results" MODIFIED="1418231649103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_meta_simple.coverage" NAME="ts_meta_simple Coverage Results" MODIFIED="1465852039469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/meta" />
-    <SUITE FILE_PATH="coverage/PythonLearning$oddnogen.coverage" NAME="oddnogen Coverage Results" MODIFIED="1418075850132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deepcopy.coverage" NAME="deepcopy Coverage Results" MODIFIED="1416834990678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$userpw.coverage" NAME="userpw Coverage Results" MODIFIED="1417510056851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testClassProp.coverage" NAME="testClassProp Coverage Results" MODIFIED="1427963466677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/oop" />
-    <SUITE FILE_PATH="coverage/PythonLearning$test_list_copy.coverage" NAME="test_list_copy Coverage Results" MODIFIED="1501140434572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/copy" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tsTclntTW.coverage" NAME="tsTclntTW Coverage Results" MODIFIED="1418821269790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/network" />
-    <SUITE FILE_PATH="coverage/PythonLearning$tesqlite.coverage" NAME="tesqlite Coverage Results" MODIFIED="1419493368707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/database" />
-    <SUITE FILE_PATH="coverage/PythonLearning$cardrun.coverage" NAME="cardrun Coverage Results" MODIFIED="1417608904707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$numstr.coverage" NAME="numstr Coverage Results" MODIFIED="1418580514315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonLearning$testbaseoperation.coverage" NAME="testbaseoperation Coverage Results" MODIFIED="1419496564678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/database" />
-    <SUITE FILE_PATH="coverage/PythonLearning$ts_property_apnpc.coverage" NAME="ts_property_apnpc Coverage Results" MODIFIED="1465856676651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/descriptor" />
-    <SUITE FILE_PATH="coverage/PythonLearning$t_crc32.coverage" NAME="t_crc32 Coverage Results" MODIFIED="1523775344276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/encode" />
-    <SUITE FILE_PATH="coverage/PythonLearning$mtfacfib.coverage" NAME="mtfacfib Coverage Results" MODIFIED="1524298899224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python2/multi_threading" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deco_closure.coverage" NAME="deco_closure Coverage Results" MODIFIED="1427976747330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/python/learning/decorator" />
-    <SUITE FILE_PATH="coverage/PythonLearning$deleteNumSpace.coverage" NAME="deleteNumSpace Coverage Results" MODIFIED="1489392316377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="PythonLearning" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_unittest_t_mydict_test_TestDict.coverage" NAME="py.test for unittest_t.mydict_test.TestDict Coverage Results" MODIFIED="1527649800978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_attr.coverage" NAME="py.test for mydict_test.TestDict.test_attr Coverage Results" MODIFIED="1527660661506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$t_process.coverage" NAME="t_process Coverage Results" MODIFIED="1527649778402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing" />
+    <SUITE FILE_PATH="coverage/python2_soup$cardrun.coverage" NAME="cardrun Coverage Results" MODIFIED="1526024848774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$TestModuleImport.coverage" NAME="TestModuleImport Coverage Results" MODIFIED="1526022424394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_init.coverage" NAME="py.test for mydict_test.TestDict.test_init Coverage Results" MODIFIED="1527655875716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1526025143885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_pip_consumer_producer.coverage" NAME="ts_pip_consumer_producer Coverage Results" MODIFIED="1526025433352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing/pipe" />
+    <SUITE FILE_PATH="coverage/python2_soup$ospathex.coverage" NAME="ospathex Coverage Results" MODIFIED="1526024942415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_test_mathfunc_TestMathFunc.coverage" NAME="py.test for test_mathfunc.TestMathFunc Coverage Results" MODIFIED="1527661550268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$site.coverage" NAME="site Coverage Results" MODIFIED="1526023213623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_in_mydict_test_py.coverage" NAME="py.test in mydict_test.py Coverage Results" MODIFIED="1527659897300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_keyerror.coverage" NAME="py.test for mydict_test.TestDict.test_keyerror Coverage Results" MODIFIED="1527650261066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict.coverage" NAME="py.test for mydict_test.TestDict Coverage Results" MODIFIED="1527660291822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$unittest_main.coverage" NAME="unittest_main Coverage Results" MODIFIED="1527660683526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mydict_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest_t/mydict_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1164">
+              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="e#83#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unittest_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest_t/unittest_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#71#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathfunc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest_t/mathfunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_mathfunc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest_t/test_mathfunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_suite.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unittest_t/test_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest_t/HTMLTestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mydict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest_t/mydict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="true" />
-    </FindUsagesManager>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file:///Applications/goagent/local/dnsproxy.py" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/com/python/learning/logging/tsLoggingStreamHandler.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/logging/tsLoggingConfigFile.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/logging/logging.conf" />
-        <option value="$PROJECT_DIR$/com/python/learning/json/tsJson.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/database/testmysqlconnector.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/argv/argv.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/wrap/test_getattr.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/descriptor/descriptor.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/oop/testClassProp.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/descriptor/ts_propery_doc.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/descriptor/ts_property_setter.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/descriptor/ts_propery.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/meta/ts_meta_simple.js" />
-        <option value="$PROJECT_DIR$/com/python/learning/meta/ts_meta_simple.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/descriptor/descr.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/timer/ts_timer.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/timer/ts_timer_cycle.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/timer/ts_sched.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/json/asc2_decoder.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/abstract_class/test_abstrac_class.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/meta/meta.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/descriptor/ts_property_apnpc.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/class/test_abstrac_class.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/tool/deleteNumSpace.py" />
-        <option value="$PROJECT_DIR$/test_coulddelete.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/tool/HanZi.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/tool/deleteHan.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/tool/in.txt" />
-        <option value="$PROJECT_DIR$/com/python/learning/tool/deleteArrowSpace.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/copy/test_list_copy.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/copy/deep_copy_list.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/copy/test_remove_list.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/web/simple_crawler.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/encode/t_crc32.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/encode/t_base64.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/download/video_download.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/request/test_session.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/request/test_get.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/request/test_post.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/request/test_cookie_get.py" />
-        <option value="$PROJECT_DIR$/com/python/learning/os/ospathex.py" />
-        <option value="$PROJECT_DIR$/python2/multi_threading/mtfacfib.py" />
-        <option value="$PROJECT_DIR$/python2/datetime/date_format_output.py" />
-        <option value="$PROJECT_DIR$/python2/datetime/test_localtime.py" />
-        <option value="$PROJECT_DIR$/python2/datetime/test_asctime.py" />
-        <option value="$PROJECT_DIR$/python2/datetime/test_strftime.py" />
-        <option value="$PROJECT_DIR$/python2/datetime/test_calendar.py" />
-        <option value="$PROJECT_DIR$/python2/datetime/test_datetime.py" />
-        <option value="$PROJECT_DIR$/python2/multi_threading/prodcons.py" />
-        <option value="$PROJECT_DIR$/python2/multi_threading/test_queue.py" />
-        <option value="$PROJECT_DIR$/python3/tkinter/test_simpledialog.py" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="23" />
-    <option name="width" value="1268" />
-    <option name="height" value="22" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>unitest</find>
+    </findStrings>
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Assignment issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>CoffeeScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Data flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Django</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>File Watchers</id>
-          </State>
-          <State>
-            <id>GeneralCoffeeScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Google App Engine (Python)</id>
-          </State>
-          <State>
-            <id>Invalid elementsCSS</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript function metricsJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Mako</id>
-          </State>
-          <State>
-            <id>Naming conventionsJavaScript</id>
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Buildout</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hello_world.py" />
+        <option value="$PROJECT_DIR$/cardrun.py" />
+        <option value="$PROJECT_DIR$/multiprocessing/t_process.py" />
+        <option value="$PROJECT_DIR$/unittest_t/mydict.py" />
+        <option value="$PROJECT_DIR$/unittest_t/unittest_main.py" />
+        <option value="$PROJECT_DIR$/unittest_t/mydict_test.py" />
+        <option value="$PROJECT_DIR$/unittest_t/mathfunc.py" />
+        <option value="$PROJECT_DIR$/unittest_t/test_suite.py" />
+        <option value="$PROJECT_DIR$/unittest_t/test_mathfunc.py" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-177" />
+    <option name="y" value="-1251" />
+    <option name="width" value="1518" />
+    <option name="height" value="1195" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers ProjectPane="false" />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource ProjectPane="true" />
-      <autoscrollFromSource ProjectPane="true" />
-      <sortByType ProjectPane="true" />
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest_t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python3_learn" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="choice&#9;null&#9;null" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
-    <property name="LayoutCode.rearrangeEntriesPython" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="PythonLearning" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="PythonLearning" />
-      </console-settings>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
     </option>
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python3" />
-      <recent name="$PROJECT_DIR$/python2" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/com/python/learning/tool" />
-      <recent name="$PROJECT_DIR$/com/python/learning/logging" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/com/python/learning/copy" />
-      <recent name="$PROJECT_DIR$/com/python/learning/os" />
-      <recent name="$PROJECT_DIR$/com/python/learning/class" />
-      <recent name="$PROJECT_DIR$/com/python/learning/meta" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.test_simpledialog">
-    <configuration default="false" name="test_calendar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_mathfunc">
+    <configuration name="test_mathfunc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python2/datetime" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python2/datetime/test_calendar.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_t/test_mathfunc.py" />
       <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="test_datetime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="unittest_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python2/datetime" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python2/datetime/test_datetime.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_t/unittest_main.py" />
       <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="prodcons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for mydict_test.TestDict" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python2/multi_threading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python2/multi_threading/prodcons.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mydict_test.TestDict&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration default="false" name="test_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for mydict_test.TestDict.test_attr" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python2/multi_threading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python2/multi_threading/test_queue.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mydict_test.TestDict.test_attr&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration default="false" name="test_simpledialog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for test_mathfunc.TestMathFunc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python3/tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python3/tkinter/test_simpledialog.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mathfunc.TestMathFunc&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="scope" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scope.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="unicode_example" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learning/unicode/unicode_example.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="deleteNumSpace" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learning/tool/deleteNumSpace.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="dmoz_spider" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/python/learning/scrapy/tutorial/tutorial/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learning/scrapy/tutorial/tutorial/spiders/dmoz_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonCover" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonCover" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testorm" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/python/learning/database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learning/database/testorm.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testsqlobject" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/python/learning/database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learning/database/testsqlobject.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <list size="11">
-      <item index="0" class="java.lang.String" itemvalue="Python.scope" />
-      <item index="1" class="java.lang.String" itemvalue="Python.unicode_example" />
-      <item index="2" class="java.lang.String" itemvalue="Python.deleteNumSpace" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dmoz_spider" />
-      <item index="4" class="java.lang.String" itemvalue="Python.testorm" />
-      <item index="5" class="java.lang.String" itemvalue="Python.testsqlobject" />
-      <item index="6" class="java.lang.String" itemvalue="Python.test_calendar" />
-      <item index="7" class="java.lang.String" itemvalue="Python.test_datetime" />
-      <item index="8" class="java.lang.String" itemvalue="Python.prodcons" />
-      <item index="9" class="java.lang.String" itemvalue="Python.test_queue" />
-      <item index="10" class="java.lang.String" itemvalue="Python.test_simpledialog" />
+    <list>
+      <item itemvalue="Python.unittest_main" />
+      <item itemvalue="Python tests.py.test for mydict_test.TestDict" />
+      <item itemvalue="Python tests.py.test for mydict_test.TestDict.test_attr" />
+      <item itemvalue="Python tests.py.test for test_mathfunc.TestMathFunc" />
+      <item itemvalue="Python.test_mathfunc" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_simpledialog" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_queue" />
-        <item index="2" class="java.lang.String" itemvalue="Python.prodcons" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_datetime" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_calendar" />
+      <list>
+        <item itemvalue="Python.test_mathfunc" />
+        <item itemvalue="Python tests.py.test for test_mathfunc.TestMathFunc" />
+        <item itemvalue="Python.unittest_main" />
+        <item itemvalue="Python tests.py.test for mydict_test.TestDict.test_attr" />
+        <item itemvalue="Python tests.py.test for mydict_test.TestDict" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
     <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b49ff4dd-d31a-4734-acbf-e9bddc722201" name="Default" comment="" />
-      <created>1416139846864</created>
-      <updated>1416139846864</updated>
+      <changelist id="cdf81c00-afc7-4f86-a244-690b16c94cce" name="Default" comment="" />
+      <created>1526022272602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526022272602</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_mydict_test_TestDict_test_init - 2018.05.30 at 12h 43m 52s.xml">
+      <configuration name="py.test for mydict_test.TestDict.test_init" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict_test_init - 2018.05.30 at 12h 51m 16s.xml">
+      <configuration name="py.test for mydict_test.TestDict.test_init" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict - 2018.05.30 at 13h 56m 50s.xml">
+      <configuration name="py.test for mydict_test.TestDict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict - 2018.05.30 at 13h 57m 43s.xml">
+      <configuration name="py.test for mydict_test.TestDict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_mydict_test_py - 2018.05.30 at 13h 58m 17s.xml">
+      <configuration name="py.test in mydict_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict - 2018.05.30 at 13h 59m 22s.xml">
+      <configuration name="py.test for mydict_test.TestDict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict - 2018.05.30 at 14h 04m 52s.xml">
+      <configuration name="py.test for mydict_test.TestDict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict_test_attr - 2018.05.30 at 14h 10m 44s.xml">
+      <configuration name="py.test for mydict_test.TestDict.test_attr" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_mydict_test_TestDict_test_attr - 2018.05.30 at 14h 11m 02s.xml">
+      <configuration name="py.test for mydict_test.TestDict.test_attr" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_mathfunc_TestMathFunc - 2018.05.30 at 14h 25m 50s.xml">
+      <configuration name="py.test for test_mathfunc.TestMathFunc" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1268" height="22" extended-state="0" />
-    <editor active="false" />
+    <frame x="-556" y="-1440" width="1736" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23327896" sideWeight="0.4016506" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28335625" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35253772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1711" y="287" width="1196" height="766" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23327896" sideWeight="0.59697384" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3171472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35764375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21153846" sideWeight="0.45473683" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34250343" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32234433" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287796" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32950193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.188902" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Structure" order="5" weight="0.24970484" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="13" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/base64.py">
+    <entry file="file://$PROJECT_DIR$/os_t/ospathex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1315" max-vertical-offset="6188">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urlparse.py">
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="7378">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/binascii.py">
+    <entry file="file://$PROJECT_DIR$/maxFact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35897437" vertical-offset="884" max-vertical-offset="2210">
-          <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/contextlib.py">
+    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69822484" vertical-offset="2010" max-vertical-offset="2686">
-          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67753625" vertical-offset="1479" max-vertical-offset="2686">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk/Tkconstants.py">
+    <entry file="file://$PROJECT_DIR$/cardrun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33174226" vertical-offset="252" max-vertical-offset="1972">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py">
+    <entry file="file://$PROJECT_DIR$/os_t/ospathex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24892704" vertical-offset="10689" max-vertical-offset="22729">
-          <caret line="639" column="6" selection-start-line="639" selection-start-column="6" selection-end-line="639" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/thread.py">
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32188842" vertical-offset="1645" max-vertical-offset="5015">
-          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/__init__.py">
+    <entry file="file://$PROJECT_DIR$/maxFact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/myThread.py">
+    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/mtfacfib.py">
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1054">
-          <caret line="50" column="15" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="15" />
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/mtfacfib_2.py">
+    <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1020">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/mtsleep2.py">
+    <entry file="file://$PROJECT_DIR$/maxFact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/time.py">
+    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="5270">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/test_calendar.py">
+    <entry file="file://$PROJECT_DIR$/cardrun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="476">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/datetime.py">
+    <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33157894" vertical-offset="3427" max-vertical-offset="10931">
-          <caret line="209" column="15" selection-start-line="209" selection-start-column="15" selection-end-line="209" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/maxFact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040572792" vertical-offset="0" max-vertical-offset="419">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/__init__.py">
+    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040572792" vertical-offset="0" max-vertical-offset="419">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/test_localtime.py">
+    <entry file="file://$PROJECT_DIR$/cardrun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/Queue.py">
+    <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2386" max-vertical-offset="4250">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/test_queue.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="952">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="1292">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/multi_threading/prodcons.py">
+    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/test_datetime.py">
+    <entry file="file://$PROJECT_DIR$/maxFact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="442">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/TestDate.py">
+    <entry file="file://$PROJECT_DIR$/grabWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="442">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="158">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/test_asctime.py">
+    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="442">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="22">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python2/datetime/test_strftime.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1702432" vertical-offset="0" max-vertical-offset="699">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="-79">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02425107" vertical-offset="0" max-vertical-offset="701">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python3/__init__.py">
+    <entry file="file://$PROJECT_DIR$/maxFact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python3/tkinter/__init__.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="178">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python3/tkinter/test_simpledialog.py">
+    <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19400856" vertical-offset="0" max-vertical-offset="701">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardrun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os_t/ospathex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocessing/t_process.py" />
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/348993582/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="2503" column="6" selection-start-line="2503" selection-start-column="6" selection-end-line="2503" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.python-version">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/pytest_plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#320#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/unittest_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/HTMLReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/mydict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python@2/2.7.15/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="391" column="8" selection-start-line="391" selection-start-column="8" selection-end-line="391" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/UnittestTextReport.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python@2/2.7.15/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="131" column="32" lean-forward="true" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/mathfunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/test_mathfunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/mydict_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1164">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#83#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

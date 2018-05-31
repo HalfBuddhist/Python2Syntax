@@ -2,14 +2,14 @@
 'makeTextFile.py -- create text file'
 
 import os
-ls = os.linesep
+ls = os_t.linesep
 
 fname = ""
 
 # get filename
 while True:
     fname = raw_input("input the file name: ")
-    if os.path.exists(fname):
+    if os_t.path.exists(fname):
         print "ERROR: '%s' already exists" % fname
     else:
         break

@@ -1,0 +1,6 @@
+[
+  "test_mathfunc.py::TestMathFunc::test_add", 
+  "test_mathfunc.py::TestMathFunc::test_divide", 
+  "test_mathfunc.py::TestMathFunc::test_minus", 
+  "test_mathfunc.py::TestMathFunc::test_multi"
+]
