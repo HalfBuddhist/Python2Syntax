@@ -26,6 +26,7 @@ def adder(pipe):
 
 if __name__ == "__main__":
     (server_p, client_p) = multiprocessing.Pipe()
+    #(parent, child), (output, input), (server, client)
 
     # 启动服务器进程
     adder_p = multiprocessing.Process(target=adder, args=((server_p, client_p),))
@@ -43,7 +44,6 @@ if __name__ == "__main__":
     print client_p.recv()
 
     print "send eof"
-
     # 完成，关闭管道
     client_p.close()
 
