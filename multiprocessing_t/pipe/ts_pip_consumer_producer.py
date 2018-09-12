@@ -2,6 +2,7 @@
 # coding: UTF-8
 """
 使用管道实现的生产者与消费者模型，注意关闭不用的输入与输出管道在每个进程中。
+不关闭不必要的管道则可能会出错。
 """
 
 import multiprocessing
@@ -31,6 +32,7 @@ def producer(sequence, input_p):
 
 if __name__ == "__main__":
     (output_p, input_p) = multiprocessing.Pipe()
+    # the input pip is also the child pipe end.
 
     # 启动使用者进程
     cons_p = multiprocessing.Process(target=consumer, args=((output_p, input_p),))
