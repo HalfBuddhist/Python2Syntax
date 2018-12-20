@@ -1,73 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../phoenix/engine/worker/train/train_helper.py" line="239" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdf81c00-afc7-4f86-a244-690b16c94cce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/unittest_t/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest_t/mydict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest_t/mydict_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest_t/unittest_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python2_soup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python2_soup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datetime_t/ts_timezone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_threading_t/ts_thread_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_threading_t/ts_threading_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/ts_get_ip_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy/deep_copy_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/deep_copy_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy/deepcopy.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/deepcopy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy/test_list_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/test_list_copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy/test_remove_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_t/test_remove_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/TestDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/TestDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/test_asctime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_asctime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/test_calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_calendar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_datetime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/test_localtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_localtime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/test_strftime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_strftime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_operation/makeTextFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_operation/makeTextFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/asc2_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_t/asc2_decoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/tsJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_t/tsJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/logging.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/myapp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/tsLogging2Console.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLogging2Console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/tsLogging2File.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLogging2File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/tsLoggingConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLoggingConfigFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/tsLoggingStreamHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tsLoggingStreamHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/tst.log" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/tst.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/mtfacfib.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtfacfib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/mtfacfib_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtfacfib_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep2.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep3.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep4.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/mtsleep5.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/mtsleep5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/myThread.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/myThread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/prodcons.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/prodcons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_threading/test_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_threading_t/test_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiprocessing/pipe/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/pipe/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiprocessing/pipe/ts_pip_consumer_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiprocessing/pipe/ts_pipe_server_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/os/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/os_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/os/ospathex.py" beforeDir="false" afterPath="$PROJECT_DIR$/os_t/ospathex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re/gendata.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_t/gendata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/test_cookie_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_cookie_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/test_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/test_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/test_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_t/test_session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/ts_sched.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_sched.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/ts_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_timer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/ts_timer_cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_timer_cycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime_t/test_asctime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_t/test_asctime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging_t/a.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_t/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testit.py" beforeDir="false" afterPath="$PROJECT_DIR$/testit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer_t/ts_sched.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer_t/ts_sched.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,94 +25,87 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python2_soup$py_test_for_unittest_t_mydict_test_TestDict.coverage" NAME="py.test for unittest_t.mydict_test.TestDict Coverage Results" MODIFIED="1527649800978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_attr.coverage" NAME="py.test for mydict_test.TestDict.test_attr Coverage Results" MODIFIED="1527660661506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
-    <SUITE FILE_PATH="coverage/python2_soup$t_process.coverage" NAME="t_process Coverage Results" MODIFIED="1527649778402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing" />
+    <SUITE FILE_PATH="coverage/python2_soup$terminate_sub_process.coverage" NAME="terminate_sub_process Coverage Results" MODIFIED="1536576561508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$test_asctime.coverage" NAME="test_asctime Coverage Results" MODIFIED="1542867792644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datetime_t" />
     <SUITE FILE_PATH="coverage/python2_soup$cardrun.coverage" NAME="cardrun Coverage Results" MODIFIED="1526024848774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_get_ip_2.coverage" NAME="ts_get_ip_2 Coverage Results" MODIFIED="1538038120097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
     <SUITE FILE_PATH="coverage/python2_soup$TestModuleImport.coverage" NAME="TestModuleImport Coverage Results" MODIFIED="1526022424394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_opt_quadratic.coverage" NAME="ts_opt_quadratic Coverage Results" MODIFIED="1530758868173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hyperopt_t" />
     <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_init.coverage" NAME="py.test for mydict_test.TestDict.test_init Coverage Results" MODIFIED="1527655875716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
     <SUITE FILE_PATH="coverage/python2_soup$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1526025143885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python2_soup$ts_pip_consumer_producer.coverage" NAME="ts_pip_consumer_producer Coverage Results" MODIFIED="1526025433352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing/pipe" />
     <SUITE FILE_PATH="coverage/python2_soup$ospathex.coverage" NAME="ospathex Coverage Results" MODIFIED="1526024942415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os" />
     <SUITE FILE_PATH="coverage/python2_soup$py_test_for_test_mathfunc_TestMathFunc.coverage" NAME="py.test for test_mathfunc.TestMathFunc Coverage Results" MODIFIED="1527661550268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
-    <SUITE FILE_PATH="coverage/python2_soup$site.coverage" NAME="site Coverage Results" MODIFIED="1526023213623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_pipe_server_client.coverage" NAME="ts_pipe_server_client Coverage Results" MODIFIED="1536316985423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing_t/pipe" />
     <SUITE FILE_PATH="coverage/python2_soup$py_test_in_mydict_test_py.coverage" NAME="py.test in mydict_test.py Coverage Results" MODIFIED="1527659897300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$a.coverage" NAME="a Coverage Results" MODIFIED="1536031181967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_threading_module.coverage" NAME="ts_threading_module Coverage Results" MODIFIED="1543319006255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multi_threading_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_attr.coverage" NAME="py.test for mydict_test.TestDict.test_attr Coverage Results" MODIFIED="1527660661506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$t_process.coverage" NAME="t_process Coverage Results" MODIFIED="1527649778402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing" />
+    <SUITE FILE_PATH="coverage/python2_soup$b.coverage" NAME="b Coverage Results" MODIFIED="1535957574726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_in_test_asctime_py.coverage" NAME="py.test in test_asctime.py Coverage Results" MODIFIED="1542867764742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datetime_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_timezone.coverage" NAME="ts_timezone Coverage Results" MODIFIED="1542868158643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datetime_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$py_test_in_test_calendar_py.coverage" NAME="py.test in test_calendar.py Coverage Results" MODIFIED="1542867872065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datetime_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_first_example.coverage" NAME="ts_first_example Coverage Results" MODIFIED="1543316743896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multi_threading_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$ts_pip_consumer_producer.coverage" NAME="ts_pip_consumer_producer Coverage Results" MODIFIED="1536316230372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multiprocessing_t/pipe" />
+    <SUITE FILE_PATH="coverage/python2_soup$site.coverage" NAME="site Coverage Results" MODIFIED="1526023213623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+    <SUITE FILE_PATH="coverage/python2_soup$testit.coverage" NAME="testit Coverage Results" MODIFIED="1545310876694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python2_soup$tsLogging2File.coverage" NAME="tsLogging2File Coverage Results" MODIFIED="1535946655048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_t" />
     <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict_test_keyerror.coverage" NAME="py.test for mydict_test.TestDict.test_keyerror Coverage Results" MODIFIED="1527650261066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
     <SUITE FILE_PATH="coverage/python2_soup$py_test_for_mydict_test_TestDict.coverage" NAME="py.test for mydict_test.TestDict Coverage Results" MODIFIED="1527660291822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
-    <SUITE FILE_PATH="coverage/python2_soup$unittest_main.coverage" NAME="unittest_main Coverage Results" MODIFIED="1527660683526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
+    <SUITE FILE_PATH="coverage/python2_soup$unittest_main.coverage" NAME="unittest_main Coverage Results" MODIFIED="1541676805498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_t" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mydict_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_t/mydict_test.py">
+      <file leaf-file-name="ts_thread_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_threading_t/ts_thread_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1164">
-              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-              <folding>
-                <element signature="e#83#98#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unittest_main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_t/unittest_main.py">
+      <file leaf-file-name="ts_threading_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_threading_t/ts_threading_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#71#86#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mathfunc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_t/mathfunc.py">
+      <file leaf-file-name="terminate_sub_process.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiprocessing_t/terminate_sub_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1060">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_mathfunc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_t/test_mathfunc.py">
+      <file leaf-file-name="tsLogging2Console.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logging_t/tsLogging2Console.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_suite.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unittest_t/test_suite.py">
+      <file leaf-file-name="tsLogging2File.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logging_t/tsLogging2File.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_t/HTMLTestRunner.py">
+      <file leaf-file-name="tsLoggingConfigFile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logging_t/tsLoggingConfigFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mydict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_t/mydict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="200">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -182,7 +122,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>unitest</find>
+      <find>config</find>
+      <find>close</find>
+      <find>self.</find>
+      <find>rend</find>
+      <find>pick</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/re_t</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -199,6 +150,21 @@
         <option value="$PROJECT_DIR$/unittest_t/mathfunc.py" />
         <option value="$PROJECT_DIR$/unittest_t/test_suite.py" />
         <option value="$PROJECT_DIR$/unittest_t/test_mathfunc.py" />
+        <option value="$PROJECT_DIR$/hyperopt_t/ts_opt_quadratic.py" />
+        <option value="$PROJECT_DIR$/logging_t/c.py" />
+        <option value="$PROJECT_DIR$/logging_t/b.py" />
+        <option value="$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py" />
+        <option value="$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py" />
+        <option value="$PROJECT_DIR$/multiprocessing_t/terminate_sub_process.py" />
+        <option value="$PROJECT_DIR$/testit.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/logging_t/a.py" />
+        <option value="$PROJECT_DIR$/timer_t/ts_sched.py" />
+        <option value="$PROJECT_DIR$/datetime_t/test_asctime.py" />
+        <option value="$PROJECT_DIR$/datetime_t/ts_timezone.py" />
+        <option value="$PROJECT_DIR$/multi_threading_t/ts_first_example.py" />
+        <option value="$PROJECT_DIR$/multi_threading_t/ts_thread_module.py" />
+        <option value="$PROJECT_DIR$/multi_threading_t/ts_threading_module.py" />
       </list>
     </option>
   </component>
@@ -211,18 +177,16 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-177" />
-    <option name="y" value="-1251" />
-    <option name="width" value="1518" />
-    <option name="height" value="1195" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,16 +197,56 @@
             <path>
               <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
               <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest_t" type="462c0819:PsiDirectoryNode" />
+              <item name="datetime_t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
+              <item name="logging_t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
+              <item name="multi_threading_t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
+              <item name="multiprocessing_t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python2_soup" type="462c0819:PsiDirectoryNode" />
+              <item name="multiprocessing_t" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+            </path>
+            <path>
+              <item name="python2_soup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +254,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/network" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,8 +273,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_mathfunc">
-    <configuration name="test_mathfunc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.testit">
+    <configuration name="test_strftime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,18 +282,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datetime_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_t/test_mathfunc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datetime_t/test_strftime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="unittest_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,76 +301,88 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_t/unittest_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for mydict_test.TestDict" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="ts_first_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multi_threading_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;mydict_test.TestDict&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_threading_t/ts_thread_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for mydict_test.TestDict.test_attr" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="ts_threading_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multi_threading_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;mydict_test.TestDict.test_attr&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_threading_t/ts_threading_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for test_mathfunc.TestMathFunc" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="ts_timezone" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python2_soup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_t" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datetime_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mathfunc.TestMathFunc&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datetime_t/ts_timezone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.unittest_main" />
-      <item itemvalue="Python tests.py.test for mydict_test.TestDict" />
-      <item itemvalue="Python tests.py.test for mydict_test.TestDict.test_attr" />
-      <item itemvalue="Python tests.py.test for test_mathfunc.TestMathFunc" />
-      <item itemvalue="Python.test_mathfunc" />
+      <item itemvalue="Python.ts_timezone" />
+      <item itemvalue="Python.test_strftime" />
+      <item itemvalue="Python.ts_first_example" />
+      <item itemvalue="Python.ts_threading_module" />
+      <item itemvalue="Python.testit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_mathfunc" />
-        <item itemvalue="Python tests.py.test for test_mathfunc.TestMathFunc" />
-        <item itemvalue="Python.unittest_main" />
-        <item itemvalue="Python tests.py.test for mydict_test.TestDict.test_attr" />
-        <item itemvalue="Python tests.py.test for mydict_test.TestDict" />
+        <item itemvalue="Python.testit" />
+        <item itemvalue="Python.ts_threading_module" />
+        <item itemvalue="Python.ts_first_example" />
+        <item itemvalue="Python.ts_timezone" />
+        <item itemvalue="Python.ts_timezone" />
       </list>
     </recent_temporary>
   </component>
@@ -382,12 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_mydict_test_TestDict_test_init - 2018.05.30 at 12h 43m 52s.xml">
-      <configuration name="py.test for mydict_test.TestDict.test_init" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_mydict_test_TestDict_test_init - 2018.05.30 at 12h 51m 16s.xml">
-      <configuration name="py.test for mydict_test.TestDict.test_init" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_mydict_test_TestDict - 2018.05.30 at 13h 56m 50s.xml">
       <configuration name="py.test for mydict_test.TestDict" configurationId="tests" />
     </history-entry>
@@ -412,24 +427,29 @@
     <history-entry file="py_test_for_test_mathfunc_TestMathFunc - 2018.05.30 at 14h 25m 50s.xml">
       <configuration name="py.test for test_mathfunc.TestMathFunc" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_asctime_py - 2018.11.22 at 14h 22m 46s.xml">
+      <configuration name="py.test in test_asctime.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_calendar_py - 2018.11.22 at 14h 24m 32s.xml">
+      <configuration name="py.test in test_calendar.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-556" y="-1440" width="1736" height="1440" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32234433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2747253" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287796" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32950193" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.188902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1223193" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Structure" order="5" weight="0.24970484" />
+      <window_info anchor="right" id="Structure" order="5" side_tool="true" visible="true" weight="0.24741858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,6 +458,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26813188" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,366 +467,367 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/logging_t/a.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/os_t/ospathex.py">
+    <entry file="file://$PROJECT_DIR$/logging_t/tsLoggingConfigFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="300">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
+    <entry file="file:///usr/local/lib/python2.7/site-packages/hyperopt/fmin.py" />
+    <entry file="file:///usr/local/lib/python2.7/site-packages/networkx/algorithms/dag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="20">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maxFact.py">
+    <entry file="file://$PROJECT_DIR$/hyperopt_t/ts_opt_quadratic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
+    <entry file="file://$PROJECT_DIR$/logging_t/tst.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardrun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/os_t/ospathex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxFact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxFact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardrun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxFact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardrun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxFact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grabWeb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestModuleImport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxFact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardrun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/os_t/ospathex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing/t_process.py" />
-    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/348993582/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="2503" column="6" selection-start-line="2503" selection-start-column="6" selection-end-line="2503" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.python-version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="20">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
+    <entry file="file://$PROJECT_DIR$/logging_t/logging.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-9">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/pytest_plugin.py">
+    <entry file="file:///usr/local/Cellar/python@2/2.7.15/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#320#329#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="382">
+          <caret line="1187" column="4" selection-start-line="1187" selection-start-column="4" selection-end-line="1187" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_t/unittest_main.py">
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pipe_server_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#71#86#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_t/HTMLReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python@2/2.7.15/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="154" column="11" lean-forward="true" selection-start-line="154" selection-start-column="11" selection-end-line="154" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/pipe/ts_pip_consumer_producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/ts_get_ip_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittest_t/mydict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python@2/2.7.15/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="391" column="8" selection-start-line="391" selection-start-column="8" selection-end-line="391" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_t/UnittestTextReport.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python@2/2.7.15/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="131" column="32" lean-forward="true" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+        <state relative-caret-position="360">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittest_t/mathfunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_t/test_mathfunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittest_t/mydict_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1164">
-          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="e#83#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/test_mathfunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/UnittestTextReport.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_t/unittest_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittest_t/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+        <state relative-caret-position="10260">
+          <caret line="606" column="36" selection-start-line="606" selection-start-column="36" selection-end-line="606" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_t/test_suite.py">
+    <entry file="file://$PROJECT_DIR$/unittest_t/HTMLReport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="398">
+          <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_t/gendata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timer_t/ts_sched.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timer_t/ts_timer_cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timer_t/ts_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/test_asctime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/test_calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/test_datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/test_localtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/test_strftime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="225" column="8" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/-1199944087/thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/mtfacfib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/myThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/prodcons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/test_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="17" selection-start-line="3" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/TestDate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/ts_thread_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_threading_t/ts_threading_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/myapp.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocessing_t/terminate_sub_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/tsLogging2Console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/tsLogging2File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/tsLoggingStreamHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_t/ts_timezone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging_t/tsLoggingConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
 # python compile file
 *.pyc
 .DS_Store
-
+*.log
